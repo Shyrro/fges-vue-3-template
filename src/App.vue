@@ -1,18 +1,17 @@
 <script>
 import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+import Calculcatrice from './components/Calculcatrice.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld,
+    Calculcatrice
   }
 });
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <Calculcatrice />
 </template>
 
 <style>
